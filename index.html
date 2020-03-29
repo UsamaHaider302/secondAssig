@@ -4,6 +4,8 @@
 	<title>MY 2ND WEBPAGE</title>
 	<link rel="stylesheet" type="text/css" href="style.css"> 
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 	<div class="main-wrapper">	
@@ -30,10 +32,10 @@
 <div class="main-section">
 	<div class="overlay"></div>
 	<div class="cont-div">
-		<img src="./images/iphone_11_PNG28.png">
-		<div><h1>Get Your Mobile App From Appstore</h1>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-             <a   target="_blank" href="https://play.google.com/store/apps?hl=en"><button>Get Your App</button></a>
+		<img src="./images/iphone_11_PNG28.png" data-aos="fade-right" data-aos-duration="1500">
+		<div><h1  data-aos="fade-left" data-aos-duration="1500">Get Your Mobile App From Appstore</h1>
+			<p data-aos="fade-left" data-aos-duration="1500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+             <a    target="_blank" href="https://play.google.com/store/apps?hl=en"><button data-aos="fade-left" data-aos-duration="1500">Get Your App</button></a>
 		</div>
 	</div>
 
@@ -42,22 +44,30 @@
 </div>
 	<div class="content-section">
 		<div class="container">
-			<h1>Our Services</h1>
+			<h1 data-aos="zoom-in-down" data-aos-duration="2000">Our Services</h1>
 			<p>	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
 			<div class="cards-row">
-				<div class="card">
+				<div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
 					 <h1>Web Development</h1>
 					 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				</div>
-				<div class="card">
+				<div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
 					 <h1>IOS Development</h1>
 					 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				</div>
-				<div class="card">
+				<div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
 					 <h1>AI</h1>
 					 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				</div>
-				<div class="card">
+				<div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
 					 <h1>Game Development</h1>
 					 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 				</div>
@@ -67,5 +77,9 @@
 
 	</div>
 </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
