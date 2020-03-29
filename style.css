@@ -1,0 +1,149 @@
+body{
+	padding: 0;
+	margin: 0;
+font-family: 'Lato', sans-serif;
+
+}
+.navbar-main  img{
+	
+	width: 100px;
+}
+.navbar-main{
+	margin: 0 auto
+}
+.navbar-main{
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+	padding-top: 15px;
+	    background-color: transparent;
+	    position: absolute;
+	    top: 0;
+	    z-index: 2;
+
+    right: 0;
+    left: 0;
+}
+.navbar-main ul{
+	margin: 0;
+	padding: 0;
+}
+.navbar-main ul li:hover{
+	border-bottom: 2px solid white;
+}
+
+.navbar-main ul li{
+	float: left;
+	font-size: 14px;
+	color: white;
+	margin: 0px 10px;
+	list-style: none;
+  cursor: pointer;	
+  border-bottom: 2px solid transparent;
+}
+.navbar-main ul li:nth-child(1){
+border-bottom: 2px solid white;
+}
+.navbar-main button{
+	background-color: #a3ceeb	;
+	border: none;
+	outline: none;
+	color: white;
+	    padding: 10px 20px;
+    border-radius: 25px;	
+    cursor: pointer;
+    font-size: 14px;
+}
+/*main section css starts*/
+.main-section{
+	width: 100%;
+	min-height: 600px;
+	background-image: url("./images/laptop_cup_glasses_plant_114948_1920x1080.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	display: flex;
+    align-items: center;
+        flex-direction: column;
+    justify-content: flex-end;
+}
+
+.overlay{
+	background-color: black;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+    opacity: 0.3;
+        z-index: 0;
+}
+.cont-div{
+	z-index: 1	;
+	    display: flex;
+    align-items: center;
+        width: 50%;
+    margin: 0 auto;
+}
+.cont-div img{
+	width: 400px;
+}
+.cont-div h1{
+	color: white;
+	    font-weight: 500;
+}
+.cont-div p{
+	color: white;
+    font-size: 14px;
+    line-height: 1.8;
+        font-style: italic;
+}
+.cont-div button{
+	    border: none;
+    background-color: white;
+    padding: 9px 25px;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+
+.content-section .container{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.content-section .container h1{
+font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cards-row{
+	display: flex;
+	    margin: 100px 0px;
+	        justify-content: space-between;
+}
+
+.cards-row .card{
+	min-height: 350px;
+    width: 20%;
+    background-color: #04b5c9;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.cards-row .card h1{
+
+}
+.cards-row .card p{
+	text-align: center;
+	    line-height: 1.8;
+	    color: white;
+}
